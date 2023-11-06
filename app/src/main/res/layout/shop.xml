@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvShop"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:text="@string/tvShop"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:paddingTop="20dp"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvNombre" />
+
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:ems="10"
+        android:hint="@string/edNombre"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/tvLastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvApellido" />
+
+    <EditText
+        android:id="@+id/edLastname"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:ems="10"
+        android:hint="@string/edApellido"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/tvAdress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvDireccion" />
+
+    <EditText
+        android:id="@+id/edAdress"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:ems="10"
+        android:hint="@string/edDireccion"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar" />
+</LinearLayout>

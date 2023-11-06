@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvItems"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:paddingTop="20dp"
+        android:layout_height="84dp"
+        android:text="@string/tvItems" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:text="Todo a $1.000" />
+
+    <CheckBox
+        android:id="@+id/cbItem1"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:text="@string/cbItem1"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <CheckBox
+        android:id="@+id/cbItem2"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:text="@string/cbItem2"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <CheckBox
+        android:id="@+id/cbItem3"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:text="@string/cbItem3"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <CheckBox
+        android:id="@+id/cbItem4"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:text="@string/cbItem4"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <CheckBox
+        android:id="@+id/cbItem5"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:text="@string/cbItem5"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <CheckBox
+        android:id="@+id/cbItem6"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:text="@string/cbItem6"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <Button
+        android:id="@+id/btnComprar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comprar" />
+</LinearLayout>

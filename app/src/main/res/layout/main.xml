@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvBienvenida"
+        android:layout_width="match_parent"
+        android:layout_height="199dp"
+        android:paddingTop="40dp"
+        android:text="@string/tvBienvenida"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="145dp">
+
+        <Button
+            android:id="@+id/btnAge"
+            android:layout_width="205dp"
+            android:layout_height="75dp"
+            android:text="@string/btnAge" />
+
+        <Button
+            android:id="@+id/btnShop"
+            android:layout_width="205dp"
+            android:layout_height="75dp"
+            android:text="@string/btnShop" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="152dp">
+
+        <Button
+            android:id="@+id/btnTest"
+            android:layout_width="205dp"
+            android:layout_height="75dp"
+            android:text="@string/btnTest" />
+
+        <Button
+            android:id="@+id/btnMasa"
+            android:layout_width="205dp"
+            android:layout_height="75dp"
+            android:text="@string/btnMasa" />
+    </TableRow>
+</LinearLayout>

@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Age</string>
+    <!--Bienvenida-->
+    <string name="tvBienvenida">Bienvenido a los ejercicios de Apps</string>
+    <string name="btnAge">Calcula tu edad!</string>
+    <string name="btnShop">Calcula tus comrpas</string>
+    <string name="btnTest">Realiza un test</string>
+    <string name="btnMasa">Calcular masa corporal</string>
+
+    <!--Age-->
+    <string name="tvTitulo">Bienvenido, acá podrás calcular tu edad</string>
+    <string name="edAño">Digita el año actual</string>
+    <string name="edAñoNac">Digita tu año de nacimiento</string>
+    <string name="btnCalcular">Calcular</string>
+
+    <!--Masa-->
+    <string name="tvTituloMasa">Bienvenido, acá podrás calcular tu masa corporal</string>
+    <!--Sistema Inglés-->
+    <string name="tvEstatura">ESTATURA (en pulgadas)</string>
+    <string name="edEstatura1">Digite su estatura</string>
+    <string name="tvPeso1">PESO (en libras)</string>
+    <string name="edPeso1">Digite su peso</string>
+    <string name="btnCalculoIngles">Calcular</string>
+    <!--Sistema métrico-->
+    <string name="tvEstatura2">ESTATURA (en centímetros)</string>
+    <string name="edEstatura2">Digite su estatura</string>
+    <string name="tvPeso2">PESO (en kilogramos)</string>
+    <string name="edPeso2">Digite su peso</string>
+    <string name="btnCalculoMetrico">Calcular</string>
+
+    <!--test-->
+    <string name="tvTituloTest">Bienvenido, acá podrás realizar un divertido test sobre Colombia</string>
+    <!--Pregunta 1-->
+    <string name="tvPregunta1">1. Colombia es el pais más...</string>
+    <string name="btnPrgt1.3">Grande del mundo</string>
+    <string name="btnPrgt1.2">Feliz del mundo</string>
+    <string name="btnPrgt1">Lluvioso del mundo</string>
+    <!--Pregunta 2-->
+    <string name="tvPregunta2">2. ¿Cuántos parques nacionales tiene Colombia?</string>
+    <string name="btnPrgt2">59</string>
+    <string name="btnPrgt2.2">40</string>
+    <string name="btnPrgt2.3">63</string>
+
+    <string name="btnSgt">Siguiente</string>
+
+    <!--Pregunta 3-->
+    <string name="tvPregunta3">3. En 1990 se le coloco el apodo a Medellín como: </string>
+    <string name="btnPrgt3.3">La capital mundial del asesinato</string>
+    <string name="btnPrgt3.2">La ciudad de la eterna primavera</string>
+    <string name="btnPrgt3">La tacita  de plata</string>
+    <!--Pregunta 4-->
+    <string name="tvPregunta4">4. ¿En qué altitud se encuntra Bogotá?</string>
+    <string name="btnPrgt4">2.640 m.</string>
+    <string name="btnPrgt4.2">3.420 m.</string>
+    <string name="btnPrgt4.3">1.632 m.</string>
+
+    <string name="btnSgt2">Siguiente</string>
+
+    <!--Pregunta 5-->
+    <string name="tvPregunta5">5. ¿Cuál es el deporte que más campeones mundiales ha dado al país? </string>
+    <string name="btnPrgt5.3">Fútbol</string>
+    <string name="btnPrgt5.2">Patinaje</string>
+    <string name="btnPrgt5">Boxeo</string>
+    <!--Pregunta 6-->
+    <string name="tvPregunta6">6. ¿Cuántos días feriados tiene Colombia?</string>
+    <string name="btnPrgt6">16</string>
+    <string name="btnPrgt6.2">18</string>
+    <string name="btnPrgt6.3">20</string>
+
+    <string name="btnFin">Finalizar</string>
+
+
+
+    <!--Shop-->
+    <string name="tvShop">Bienvenido, por favor llene los datos para poder realizar sus compras</string>
+    <string name="tvNombre">Nombre</string>
+    <string name="edNombre">Digite su Nombre</string>
+    <string name="tvApellido">Apellidos</string>
+    <string name="edApellido">Digite sus Apellidos</string>
+    <string name="tvDireccion">Dirección</string>
+    <string name="edDireccion">Digite su Dirección</string>
+    <!--Shop1-->
+    <string name="tvItems">Seleccione los items que comprará</string>
+    <string name="cbItem1">Tenis Adidas</string>
+    <string name="cbItem2">Gorra Adidas</string>
+    <string name="cbItem3">Gafas Adidas</string>
+    <string name="cbItem4">Chaqueta Adidas</string>
+    <string name="cbItem5">Sudadera Adidas</string>
+    <string name="cbItem6">Vendas Adidas</string>
+
+
+
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTituloTest"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:paddingTop="25dp"
+        android:text="@string/tvTituloTest"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/tvPregunta1"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="@string/tvPregunta1" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="168dp">
+
+        <RadioButton
+            android:id="@+id/btnPrgt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnPrgt1" />
+
+        <RadioButton
+            android:id="@+id/btnPrgt1.2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnPrgt1.2" />
+
+        <RadioButton
+            android:id="@+id/btnPrgt1.3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnPrgt1.3" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvPregunta2"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="@string/tvPregunta2" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="148dp">
+
+        <RadioButton
+            android:id="@+id/btnPrgt2.3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnPrgt2.3" />
+
+        <RadioButton
+            android:id="@+id/btnPrgt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnPrgt2" />
+
+        <RadioButton
+            android:id="@+id/btnPrgt2.2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnPrgt2.2" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSgt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnSgt" />
+
+</LinearLayout>
